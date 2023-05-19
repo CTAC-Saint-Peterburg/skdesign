@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { addNewObj } from "../store/mydataSlice";
+import { addNewObj, setSearch } from "../store/mydataSlice";
 
 import styles from "../styleComponents/Myform.module.css";
 
@@ -35,6 +35,7 @@ export const Myform = () => {
           onSubmit={(e) => {
             e.preventDefault();
             dispatch(addNewObj(addForm));
+            dispatch(setSearch(""));
           }}
         >
           <label className={styles.mylabel}>
