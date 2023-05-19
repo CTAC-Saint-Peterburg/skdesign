@@ -1,0 +1,12 @@
+.headers {
+  position: relative;
+  margin: 0 auto;
+  height: 30px;
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  grid-template-columns: 60px 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  font-weight: 600;
+}

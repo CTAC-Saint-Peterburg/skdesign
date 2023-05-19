@@ -1,0 +1,11 @@
+.id {
+  width: 30px;
+  padding: 10px;
+  background-color: #2e2c2c;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+}
+td {
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.main {
+  color: antiquewhite;
+}
+.table {
+  position: relative;
+  margin: 0 auto;
+}
+.myimg {
+  width: 12px;
+  height: 12px;
+}
+.myTh {
+  cursor: pointer;
+}

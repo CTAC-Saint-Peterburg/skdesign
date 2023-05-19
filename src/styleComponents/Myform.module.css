@@ -1,0 +1,31 @@
+.main {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 600px;
+  flex-direction: column;
+  align-items: center;
+}
+.myform {
+  position: relative;
+  margin: 0 auto;
+  display: grid;
+  width: 600px;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  flex-direction: column;
+}
+.mylabel {
+  display: grid;
+  justify-items: center;
+}
+.buttons {
+  padding: 10px;
+  border: none;
+  background-color: black;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
