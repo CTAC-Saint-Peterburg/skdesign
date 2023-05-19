@@ -24,8 +24,10 @@ export const DataLengthSwitcher = () => {
       <button
         className={styles.buttons}
         onClick={() => {
-          dispatch(setDataLengthRequest(1000));
-          dispatch(setIsLoading(true));
+          if (dataLengthRequest !== 1000) {
+            dispatch(setDataLengthRequest(1000));
+            dispatch(setIsLoading(true));
+          }
         }}
       >
         1000 строк
