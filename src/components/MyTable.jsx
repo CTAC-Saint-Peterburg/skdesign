@@ -83,7 +83,8 @@ export const MyTable = () => {
                 String(x.id).toLocaleLowerCase().includes(search) ||
                 x.firstName.toLocaleLowerCase().includes(search) ||
                 x.lastName.toLocaleLowerCase().includes(search) ||
-                x.email.toLocaleLowerCase().includes(search)
+                x.email.toLocaleLowerCase().includes(search) ||
+                x.phone.toLocaleLowerCase().includes(search)
             )
             .map((unit) => (
               <ShowData key={unit.id + unit.firstName} data={unit} />
